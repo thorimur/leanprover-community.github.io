@@ -16,7 +16,7 @@ Cartesian products of categories, functors, and natural transformations appear i
 
 The category of types, and the hom pairing functor, are defined in [`Mathlib.CategoryTheory.Types`](https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Types.html).
 
-## Notation
+## Design and Notation
 
 ### Categories
 
