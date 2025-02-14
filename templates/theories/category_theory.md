@@ -91,8 +91,3 @@ We use `F ≅ G` (`\iso`) to denote the type of natural isomorphisms.
 
 For vertical composition of natural transformations we just use `≫`. For horizontal composition,
 use `hcomp`.
-
-## A Mathematical Dictionary
-
-Here, we provide a table that associates mathematical concepts to their Mathlib notation and implementation.
-
