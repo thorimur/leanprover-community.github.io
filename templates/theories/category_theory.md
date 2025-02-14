@@ -26,7 +26,7 @@ A category is a type `C` with an instance of `[Category C]`.
 
 The inhabitants of the type `C` are the objects of the category, and the arrow data is contained in the `Category` instance as the field `Hom : C → C → Sort u`.
 
-Note that `Category` ultimately extends `Quiver`, which is what holds the `Hom` data; in fact, `Quiver C` *only* contains the `Hom` field, with no laws, identities, or composition. `CategoryStruct` extends `Quiver` with data fields for identity and composition (`id`, `comp`), but with no laws governing their behavior; finally, `Category` extends `CategoryStruct`, adding associativity and identity laws (`assoc`, `id_comp`, `comp_id`).
+Note that `Category` ultimately extends `Quiver`, which is what holds the `Hom` data; in fact, `Quiver C` *only* contains the `Hom` field, with no laws, identities, or composition. `CategoryStruct` then extends `Quiver` with data fields for identity and composition (`id`, `comp`), but with no laws governing their behavior; finally, `Category` extends `CategoryStruct`, adding associativity and identity laws (`assoc`, `id_comp`, `comp_id`).
 
 **Notation:**
 
